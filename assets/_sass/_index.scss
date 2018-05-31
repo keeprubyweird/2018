@@ -1,0 +1,99 @@
+body {
+  background-image: url("/assets/images/bg-pattern.png");
+}
+
+h1 {
+  font-size: 3em;
+  font-family: Times, "Times New Roman", serif;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-family: Times, "Times New Roman", serif;
+  margin-top: 0;
+}
+
+p {
+  font-family: Monaco, "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+.marquee {
+  color: red;
+}
+
+.marquee {
+  height: 50px;
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 5s linear infinite;
+}
+
+.marquee p {
+  float: left;
+  width: 10%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+.table {
+  margin: 0 auto;
+  border: 1px solid #a4a4a4;
+  max-width: 1000px;
+  border-collapse: collapse;
+  display: flex;
+}
+
+.table-cell {
+  text-align: center;
+  border: 1px solid #a4a4a4;
+  border-collapse: collapse;
+  padding: 1em;
+  box-shadow: inset 0 2px 3px rgba(#000, 0.5);
+}
+
+.button {
+  background-color: blue;
+	border-bottom: 5px inset rgba(0,0,0,.5);
+	border-left: 5px inset rgba(0,0,0,.5);
+	border-right: 5px inset rgba(255,255,255,.5);
+	border-top: 5px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	padding: 0.5em 1em;
+  text-decoration: none;
+
+	&:focus,
+	&:hover {
+		background: darken(blue, 10%);
+	}
+}
+
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+
+  ul li {
+    display: inline-block;
+    margin: 0.5em;
+  }
+}
