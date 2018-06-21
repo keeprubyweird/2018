@@ -39,6 +39,9 @@ sass:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Rakefile
+  - static.json
+  - vendor
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
