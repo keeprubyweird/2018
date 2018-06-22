@@ -42,6 +42,7 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
+    puma (3.11.4)
     rack (2.0.5)
     rack-protection (2.0.3)
       rack
@@ -84,6 +85,7 @@ DEPENDENCIES
   jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  puma (~> 3.11.4)
   rake
   redis (~> 4.0.1)
   sinatra (~> 2.0.3)
