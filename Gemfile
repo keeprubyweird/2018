@@ -25,3 +25,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rake'
+
+# web counter
+gem "sinatra", "~> 2.0.3"
+gem "redis", "~> 4.0.1"
+gem "connection_pool", "~> 2.2.2"
+gem "sinatra-asset-pipeline", "~> 2.1.0"

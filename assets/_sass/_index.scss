@@ -105,3 +105,35 @@ footer {
     margin: 0.5em;
   }
 }
+
+.main_container {
+  height: 60px;
+  width: 100%;
+  padding: 3px;
+  margin: 2px;
+  max-width: 300px;
+  align-content: center;
+  vertical-align: center;
+}
+.container_inner {
+  height: auto;
+  border: none;
+  max-width: 290px;
+  margin: 20px auto;
+  padding-top: 12px;
+  padding-left: 10px;
+  align-content: center;
+}
+.num_tiles {
+  width:30px;
+  height: 30px;
+  background-color: #888888;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  line-height: 20px;
+  padding: 3px;
+  margin: 1.5px;
+  font-family: verdana;
+  vertical-align: center;
+}
