@@ -11,7 +11,7 @@ class App < Sinatra::Base
   end
 
   get "/" do
-    erb :index, :locals => {
+    erb :index, :layout => :home, :locals => {
       count: count,
       title: "The best daylong conference in Austin celebrating (figurative) hugs, magic, singing, & dancing!"
     }
