@@ -73,8 +73,5 @@ DEPENDENCIES
   sinatra (~> 2.0.3)
   tzinfo-data
 
-RUBY VERSION
-   ruby 2.5.1p57
-
 BUNDLED WITH
    1.16.1
