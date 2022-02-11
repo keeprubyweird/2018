@@ -32,4 +32,4 @@ gem 'rake'
 gem "sinatra", "~> 2.0.3"
 gem "redis", "~> 4.0.1"
 gem "connection_pool", "~> 2.2.2"
-gem "puma", "~> 3.11.4"
+gem "puma", "~> 4.3.11"
