@@ -29,7 +29,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rake'
 
 # web counter
-gem "sinatra", "~> 2.0.3"
+gem "sinatra", "~> 2.2.0"
 gem "redis", "~> 4.0.1"
 gem "connection_pool", "~> 2.2.2"
 gem "puma", "~> 3.11.4"
