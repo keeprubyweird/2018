@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     colorator (1.1.0)
     connection_pool (2.2.2)
     ffi (1.9.23)
@@ -35,7 +35,7 @@ GEM
     mustermann (1.0.2)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
-    public_suffix (3.0.2)
+    public_suffix (5.0.0)
     puma (3.11.4)
     rack (2.0.5)
     rack-protection (2.0.3)
